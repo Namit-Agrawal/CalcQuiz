@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="#002340"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            style="@style/TimerQuestBar"
+            android:id="@+id/timer"
+            android:textSize="32sp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="24dp"
+            android:paddingBottom="100dp"
+            android:background="@drawable/rounded_corner"/>
+
+         <TextView
+             style="@style/TimerQuestBar"
+             android:id = "@+id/questionNumber"
+             android:textSize="16sp"
+             android:layout_marginTop="24dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp" />
+
+        <RadioGroup
+            android:id="@+id/choices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="48dp">
+
+            <RadioButton
+                android:id = "@+id/a"
+                style="@style/ChoicesLayout"/>
+            <RadioButton
+                android:id = "@+id/b"
+                style="@style/ChoicesLayout" />
+            <RadioButton
+                android:id = "@+id/c"
+                style="@style/ChoicesLayout" />
+            <RadioButton
+                android:id = "@+id/d"
+                style="@style/ChoicesLayout" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/submit"
+                style="@style/NavigationLayout"
+                android:layout_centerHorizontal="true"
+                android:text="Submit"
+                android:onClick="submitQuiz"/>
+            <Button
+                android:id="@+id/next"
+                style="@style/NavigationLayout"
+                android:text="Next"
+                android:layout_alignParentRight="true"
+                android:onClick="nextQues"
+                />
+            <Button
+                android:id="@+id/previous"
+                style="@style/NavigationLayout"
+                android:text="Previous"
+                android:onClick="prevQues"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

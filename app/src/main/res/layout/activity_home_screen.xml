@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00405A"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="80dp">
+        <Button
+            android:id="@+id/classic"
+            style="@style/Modes"
+            android:text="CLASSIC"
+            android:onClick="classic"/>
+        <Button
+            android:id="@+id/timed"
+            style="@style/Modes"
+            android:text="TIMED MODE"
+            android:layout_alignParentRight="true"
+            android:onClick="timedQuiz"/>
+        <Spinner
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:layout_centerVertical="true"/>
+        <Button
+            style="@style/Modes"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="INSTRUCTIONS"
+            android:onClick="instructions"/>
+
+    </RelativeLayout>
+</LinearLayout>

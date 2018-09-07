@@ -1,0 +1,14 @@
+Classic:
+
+Choose a topic. Answer questions at your own pace, read questions carefully and 
+select the answer. Use next and previous button to navigate the quiz and once 
+completed, submit the quiz. Review detailed selected solutions at your convenience 
+at the bottom of the review screen. Good for beginners who have trouble with concepts
+and want to get progress to getting better.
+
+Timed Mode:
+
+A fun challenging way to test your knowledge in calculus. Each topic has an alloted
+time to finish the quiz. If unable to finish, the quiz will be automatically submitted
+and answers will be revealed. A good way to prepare for timed tests and increase
+literacy in the field of calculus.

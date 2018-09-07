@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="all_choices">
+        <item>@id/a</item>
+        <item>@id/c</item>
+        <item>@id/c</item>
+        <item>@id/b</item>
+        <item>@id/d</item>
+        <item>@id/b</item>
+        <item>@id/b</item>
+        <item>@id/c</item>
+        <item>@id/b</item>
+        <item>@id/d</item>
+    </array>
+    <array name="derivatives">
+        <item>@id/a</item>
+        <item>@id/c</item>
+        <item>@id/a</item>
+        <item>@id/d</item>
+        <item>@id/c</item>
+        <item>@id/d</item>
+        <item>@id/c</item>
+        <item>@id/a</item>
+    </array>
+    <array name="integrals">
+        <item>@id/c</item>
+        <item>@id/b</item>
+        <item>@id/c</item>
+        <item>@id/d</item>
+        <item>@id/a</item>
+        <item>@id/c</item>
+        <item>@id/d</item>
+        <item>@id/a</item>
+    </array>
+    <array name="limits">
+        <item>@id/d</item>
+        <item>@id/b</item>
+        <item>@id/b</item>
+        <item>@id/c</item>
+        <item>@id/d</item>
+        <item>@id/a</item>
+        <item>@id/b</item>
+        <item>@id/b</item>
+        <item>@id/a</item>
+        <item>@id/b</item>
+    </array>
+</resources>
