@@ -24,7 +24,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Share Results"
+            android:text="@string/Share"
             android:layout_gravity="center_horizontal"
             android:onClick="shareResults"
             android:textSize="24sp"
@@ -32,39 +32,39 @@
         <Button
             style="@style/Solutions"
             android:onClick="showDerivativeSolution1"
-            android:text="Derivative Solution 1" />
+            android:text="@string/Derivative1" />
         <Button
             style="@style/Solutions"
             android:onClick="showDerivativeSolution2"
-            android:text="Derivative Solution 2"/>
+            android:text="@string/Derivative2"/>
         <Button
             style="@style/Solutions"
             android:onClick="showIntegralSolution1"
-            android:text="Integral Solution 1"/>
+            android:text="@string/Integral1"/>
         <Button
             style="@style/Solutions"
             android:onClick="showLimitSolution1"
-            android:text="Limit Solution 1"/>
+            android:text="@string/Limit1"/>
         <Button
             style="@style/Solutions"
             android:onClick="showLimitSolution2"
-            android:text="Limit Solution 2"/>
+            android:text="@string/Limit2"/>
         <Button
             style="@style/Solutions"
             android:onClick="showLimitSolution3"
-            android:text="Limit Solution 3"/>
+            android:text="@string/Limit3"/>
         <Button
             style="@style/Solutions"
             android:onClick="showAllTopicSolution8"
-            android:text="All Topic Solution 8"/>
+            android:text="@string/AllTopic8"/>
         <Button
             style="@style/Solutions"
             android:onClick="showAllTopicSolution9"
-            android:text="All Topic Solution 9"/>
+            android:text="@string/AllTopic9"/>
         <Button
             style="@style/Solutions"
             android:onClick="showDerivativeSolution6"
-            android:text="Derivative Solution 6"/>
+            android:text="@string/Derivative6"/>
 
     </LinearLayout>
 </ScrollView>

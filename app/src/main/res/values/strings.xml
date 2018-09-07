@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">CalcQuiz</string>
+    <string name="Submit">Submit</string>
+    <string name="Previous">Previous</string>
+    <string name="Next">Next</string>
+    <string name="Classic">CLASSIC</string>
+    <string name="TimedMode">TIMEDMODE</string>
+    <string name="Instructions">NEXT</string>
+    <string name="Share">Share Results</string>
+    <string name="Derivative1">Derivative Solution 1</string>
+    <string name="Derivative2">Derivative Solution 2</string>
+    <string name="Integral1">Integral Solution 1</string>
+    <string name="Limit1">Limit Solution 1</string>
+    <string name="Limit2">Limit Solution 2</string>
+    <string name="Limit3">Limit Solution 3</string>
+    <string name="AllTopic8">All Topic Solution 8</string>
+    <string name="AllTopic9">All Topic Solution 9</string>
+    <string name="Derivative6">Derivative Solution 6</string>
 </resources>

@@ -27,12 +27,12 @@
         <Button
             android:id="@+id/classic"
             style="@style/Modes"
-            android:text="CLASSIC"
+            android:text="@string/Classic"
             android:onClick="classic"/>
         <Button
             android:id="@+id/timed"
             style="@style/Modes"
-            android:text="TIMED MODE"
+            android:text="@string/TimedMode"
             android:layout_alignParentRight="true"
             android:onClick="timedQuiz"/>
         <Spinner
@@ -45,7 +45,7 @@
             style="@style/Modes"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:text="INSTRUCTIONS"
+            android:text="@string/Instructions"
             android:onClick="instructions"/>
 
     </RelativeLayout>
